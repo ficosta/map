@@ -12,7 +12,7 @@ i=0
 url='http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{2}/{1}/{0}'
 folder='WorldImagery'
 
-for z in range(1,9):
+for z in range(1,11):
     for x in range(inicioX, (2**z) ):
         for y in range(inicioY, (2**z)):
             i+=1

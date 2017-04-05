@@ -12,7 +12,7 @@ i=0
 url="http://stamen-tiles-a.a.ssl.fastly.net/toner-background/{2}/{0}/{1}.png"
 folder='TonerBackground'
 
-for z in range(1,9):
+for z in range(1,11):
     for x in range(inicioX, (2**z) ):
         for y in range(inicioY, (2**z)):
             i+=1
